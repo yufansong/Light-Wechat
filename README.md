@@ -1,5 +1,6 @@
 # Light-Wechat
-This is a final project of the Course -- "Computer Network"  
+This is a final project of the Course -- "Computer Network"    
+本项目为原创，功能实现，报文设计，通信流程均为原创  
 这个项目实现了微信的一些简单功能，主要分为client，server，database三个部分，其中client端使用qt完成，可以在Windows下运行，具有GUI界面  ，server端和database可以在linux下运行，database部分使用MySQL，代码中使用TCP链接，主要运行linux和Windows下socket库编写  
 主要实现的功能有：
 1. 用户名的创建，登陆，修改，退出
