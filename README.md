@@ -1,6 +1,16 @@
 # Light-Wechat
-This is a final project of the Course -- "Computer Network"
-## 报文种类根据客户端与服务器端的交互，报文的种类有以下几种
+This is a final project of the Course -- "Computer Network"  
+这个项目实现了微信的一些简单功能，主要分为client，server，database三个部分，其中client端使用qt完成，可以在Windows下运行，具有GUI界面  ，server端和database可以在linux下运行，database部分使用MySQL，代码中使用TCP链接，主要运行linux和Windows下socket库编写  
+主要实现的功能有：
+1. 用户名的创建，登陆，修改，退出
+2. 多地登陆时的强制退出
+3. 单人聊天与多人群聊
+4. 聊天历史纪录的保存和读取
+5. 文件的发送
+6. 日志文件的读写
+7. 数据库的加密存储
+## 报文种类
+根据客户端与服务器端的交互，报文的种类有以下几种  
 1. LOGIN：  
    登录请求,每一次客户端想要连接服务器时发送的第一个包。  
    C->S  
