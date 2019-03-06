@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\chatdialog.o
+./debug\filedisplay.o
+./debug\mylogin.o
+./debug\message.o
+./debug\newpassword.o
+./debug\mylabel.o
+./debug\qrc_myimage.o
+./debug\moc_chatdialog.o
+./debug\moc_filedisplay.o
+./debug\moc_mylogin.o
+./debug\moc_newpassword.o
+./debug\moc_mylabel.o
+);

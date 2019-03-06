@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/myImage">
+        <file>images/new.ico</file>
+        <file>images/open.ico</file>
+        <file>images/doublecircle.ico</file>
+        <file>images/singlecircle.ico</file>
+        <file>images/singlelist.ico</file>
+        <file>images/question.ico</file>
+        <file>images/question_small.ico</file>
+        <file>images/quetion_smallest.ico</file>
+        <file>images/question_smaller.ico</file>
+        <file>images/linklist.ico</file>
+        <file>images/change.ico</file>
+        <file>images/set.ico</file>
+        <file>images/change_small.png</file>
+        <file>images/record.png</file>
+        <file>images/list.png</file>
+        <file>images/record.ico</file>
+        <file>images/clear.ico</file>
+        <file>images/close.ico</file>
+        <file>images/chat.ico</file>
+        <file>images/chat.png</file>
+        <file>images/password.png</file>
+        <file>images/shadow_bottom.png</file>
+        <file>images/shadow_corner1.png</file>
+        <file>images/shadow_corner2.png</file>
+        <file>images/shadow_corner3.png</file>
+        <file>images/shadow_corner4.png</file>
+        <file>images/shadow_left.png</file>
+        <file>images/shadow_right.png</file>
+        <file>images/shadow_top.png</file>
+        <file>images/ui.png</file>
+        <file>images/notonline.png</file>
+        <file>images/online.png</file>
+        <file>images/message.png</file>
+        <file>images/min.png</file>
+    </qresource>
+</RCC>

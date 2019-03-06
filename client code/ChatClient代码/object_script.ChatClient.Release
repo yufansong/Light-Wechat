@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\chatdialog.o
+./release\filedisplay.o
+./release\mylogin.o
+./release\message.o
+./release\newpassword.o
+./release\mylabel.o
+./release\qrc_myimage.o
+./release\moc_chatdialog.o
+./release\moc_filedisplay.o
+./release\moc_mylogin.o
+./release\moc_newpassword.o
+./release\moc_mylabel.o
+);
