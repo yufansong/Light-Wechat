@@ -7,11 +7,11 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	////////////////////////////////////////////////////////////////////////////////
-	//mydb.insert_user(); //记得删！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+	//mydb.insert_user(); //记得删, used only test phase
 	////////////////////////////////////////////////////////////////////////////////
 
 /*-------------------定义参数及初始化------------------------*/
-    //char IP_to_bind[32] = "192.168.80.230"; //要绑定的本机的IP地址，缺省未0.0.0.0
+    //char IP_to_bind[32] = "192.168.80.230"; //要绑定的本机的IP地址，缺省为0.0.0.0
     // IP_to_bind[0] = '\0';
     int IP_bind_enable = 0;      //选择绑定(1)/不绑定(0)本机ip地址，缺省为不绑定
     int PORT_to_bind = -1;     //要绑定的TCP端口号，缺省值-1
@@ -111,7 +111,7 @@ int main(int argc, char const *argv[])
                         break;
                     }
                 if (k == MAXNUM_CLIENT)
-                    printf("server已满，心的clinet连接请求被拒绝\n");
+                    printf("server已满，新的clinet连接请求被拒绝\n");
             }
             for (int x = 0; x < MAXNUM_CLIENT; x++)
             {
@@ -134,7 +134,7 @@ int main(int argc, char const *argv[])
                         printf("clinet%d开始接受登陆账号密码\n", x);
                         if (n > 0)
                         {
-                            printf("clinet%d读到n>0，准备进入login函数\n");
+                            printf("clinet%d读到n>0，准备进入login函数\n",x);
                             flag = login(&msg, x, &allfd);
                         }
                         if (n == 0 || flag == false)

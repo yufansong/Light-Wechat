@@ -150,17 +150,17 @@ class MyDB
     void print_result(); //自己测试用函数，可忽略
     ///////////////////
 
-	void insert_user();
-	void encode(const char *password, char *code);
+    void insert_user();
+    void encode(const char *password, char *code);
     bool getUserNum(int &number);                                                             //取得用户总人数
-    int getUserName(char **namelist, bool *isOnline); //获取全部用户名称、是否在线、可浏览信息条数
+    int  getUserName(char **namelist, bool *isOnline); //获取全部用户名称、是否在线、可浏览信息条数
     bool getCanlogin(char *name, char *password, bool &canlogin, bool &isFirstLogin);         //获取某用户是否可登陆以及是否是第一次登陆
-    int getMessage(char *name1, char *name2, char **MessageList,bool *flag,bool *isFile); //获取两个人之间发的所有信息
+    int  getMessage(char *name1, char *name2, char **MessageList,bool *flag,bool *isFile); //获取两个人之间发的所有信息
     bool setPassword(char *name, char *password);                                             //更改某用户的密码
     bool setUserState(char *name, bool login);                                //获取用户的登陆状态
     bool addMessage(char *SendName, char *ReceiveName, char *message, bool type);             //添加聊天记录消息
     bool setFirstLogin(char *username, bool login);                                           //设置用户的首次登陆状态
-    int getscanMessageNumber(char *name, int &scanMessageNumber);
+    int  getscanMessageNumber(char *name, int &scanMessageNumber);
 };
 
 /*------------------全局变量定义-----------------------*/

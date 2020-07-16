@@ -219,7 +219,7 @@ int send_config_friend(int x)
     for (int i = 0; i < UserNum; i++)
         printf("namelist[%d]:%s isOnline:%d\n",i,namelist[i],isOnline[i]);
 
-    for (int i = 0; i < UserNum+1; i++)//因为条过了一个
+    for (int i = 0; i < UserNum+1; i++)//因为跳过了一个
     {
         printf("\n");
         mydb.getscanMessageNumber(client[x].username, scanMessageNumber);
